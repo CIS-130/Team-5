@@ -30,3 +30,40 @@ p {
     border:2px dotted #6d3707;
     border-radius: 20px;
 }
+
+.navbar { 
+    background-color: #6d3707; 
+    border-radius: 20px;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: .25rem;
+}
+
+.menu a {
+    display: block;
+    padding: .75rem;
+}
+
+.navbar a {
+  display: block;
+  padding: .75em 1em;
+  color: #ffefc2;
+  text-decoration: none;
+}
+.navbar a:hover, .navbar a:focus-visible {
+  text-decoration: underline;
+  background-color: #9b5b22;
+}
+.navbar a.current {
+  background-color: #ffefc2;
+  color: #6d3707;
+  font-weight: bold;
+  border: 1px solid #6d3707
+}
